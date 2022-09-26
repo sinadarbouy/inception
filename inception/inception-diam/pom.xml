@@ -273,7 +273,37 @@
       <plugin>
         <groupId>com.github.eirslett</groupId>
         <artifactId>frontend-maven-plugin</artifactId>
+          <version>1.12.1</version>
         <executions>
+          <execution>
+            <id>install node and npm</id>
+            <goals>
+              <goal>install-node-and-npm</goal>
+            </goals>
+            <configuration>
+                <nodeVersion>18.9.0</nodeVersion>
+                <npmVersion>8.19.1</npmVersion>
+            </configuration>
+          </execution>
+          <execution>
+            <id>npm install</id>
+            <goals>
+              <goal>npm</goal>
+            </goals>
+            <configuration>
+              <arguments>install</arguments>
+            </configuration>
+          </execution>
+          <execution>
+            <id>install node and npm</id>
+            <goals>
+              <goal>install-node-and-npm</goal>
+            </goals>
+            <configuration>
+                <nodeVersion>18.9.0</nodeVersion>
+                <npmVersion>8.19.1</npmVersion>
+            </configuration>
+          </execution>
           <execution>
             <id>npm link dependencies</id>
             <goals>
