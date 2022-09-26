@@ -283,6 +283,7 @@
             <configuration>
                 <nodeVersion>18.9.0</nodeVersion>
                 <npmVersion>8.19.1</npmVersion>
+                <downloadRoot>https://nodejs.org/dist/</downloadRoot>
             </configuration>
           </execution>
           <execution>
