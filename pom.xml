@@ -67,4 +67,8 @@
     <name>The INCEpTION Project</name>
     <url>https://inception-project.github.io</url>
   </organization>
+  <properties>
+    <sonar.organization>sinadarbouy</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
 </project>
